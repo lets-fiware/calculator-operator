@@ -6,6 +6,14 @@
  * Licensed under the MIT license.
  */
 
+/*
+ * round-off-value
+ * https://github.com/lets-fiware/round-off-value-operator
+ *
+ * Copyright (c) 2019 Kazuhito Suda
+ * Licensed under the MIT license.
+ */
+
 var ConfigParser = require('wirecloud-config-parser');
 var parser = new ConfigParser('src/config.xml');
 
@@ -119,9 +127,6 @@ module.exports = function (grunt) {
                     'node_modules/mock-applicationmashup/dist/MockMP.js',
                     'src/js/*.js',
                     'tests/js/*Spec.js'
-                ],
-                exclude: [
-                    'src/js/main.js',
                 ],
                 frameworks: ['jasmine'],
                 reporters: ['progress', 'coverage'],
