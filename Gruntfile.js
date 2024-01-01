@@ -2,7 +2,7 @@
  * Calculator Operator
  * https://github.com/lets-fiware/calculator-operator
  *
- * Copyright (c) 2019-2023 Kazuhito Suda
+ * Copyright (c) 2019-2024 Kazuhito Suda
  * Licensed under the MIT license.
  */
 
@@ -10,7 +10,7 @@
  * round-off-value
  * https://github.com/lets-fiware/round-off-value-operator
  *
- * Copyright (c) 2019-2023 Kazuhito Suda
+ * Copyright (c) 2019-2024 Kazuhito Suda
  * Licensed under the MIT license.
  */
 
